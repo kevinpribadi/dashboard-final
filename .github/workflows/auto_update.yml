@@ -22,7 +22,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-   - name: Menyalakan Mesin Pengeruk Berita
+    - name: Menyalakan Mesin Pengeruk Berita
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
